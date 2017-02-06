@@ -12,5 +12,6 @@ export PS1="\u@\h \W\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
 
 eval "$(ssh-agent -s)"
 
+export CLICOLOR=1
 export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
